@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>To-do list</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-warning">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><i class="fa-solid fa-pen-to-square"></i> TO-DO LIST</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          {% if not current_user.is_authenticated: %}
+          <li class="nav-item">
+            <a class="nav-link" href="{{ url_for('register') }}"><i class="fa-solid fa-user-plus"></i> Register</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ url_for('login') }}"><i class="fa-solid fa-right-to-bracket"></i> Login</a>
+          </li>
+          {% endif %}
+          {% if current_user.is_authenticated: %}
+          <li class="nav-item">
+            <a class="nav-link" href=""><i class="fa-solid fa-user"></i> {{ current_user.username }}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ url_for('logout') }}"><i class="fa-solid fa-solid fa-arrow-right-from-bracket"></i> Logout</a>
+          </li>
+          {% endif %}
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <nav class="navbar navbar-expand-lg bg-black">
+    <div class="container-fluid">
+      <form class="" action="{{ url_for('home') }}" method="post">
+        {% if current_user.is_authenticated %}
+        <label class="the_title">{{ user_name }}'s TO-DO's</label>
+        {% else %}
+        <label class="the_title">{{ task_title }}</label>
+        {% endif %}
+      </form>
+      <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item list-dec">
+            <a type="button" href="{{ url_for('refresh') }}" class="btn btn-light list-dec">CLEAR ALL</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <form class="" action="{{ url_for('submitted') }}" method="post">
+    <div class="input-group task-submission input-group-lg">
+      <input type="text" name="task" placeholder="Enter your task here..." class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" autofocus>
+    </div>
+  </form>
+
+
+  {% for i in t %}
+  <nav class="navbar navbar-expand-lg tasks">
+    <a type="button" class="action-icons">{{ t.index(i)+1 }}</a>
+    <!-- <div class="checkbox">
+      <label>
+        <input name="tick" class="form-check-input" type="checkbox" value="123" onclick="checkFluency()" id="fluency" >
+        <label class="form-check-label the_task" for="flexCheckDefault">
+          <script type="text/javascript">
+            function checkFluency() {
+              var checkbox = document.getElementById('fluency');
+              if (checkbox.checked == true) {
+                alert("you need to be fluent in English to apply for the job");
+              }
+            }
+          </script>
+        </label>
+    </div> -->
+    <label>{{ i.task }}</label>
+    {% if i.status == "COMPLETED" %}
+    <label class="completed">{{ i.status }}</label>
+    {% else %}
+    <label class="not_completed">{{ i.status }}</label>
+    {% endif %}
+    {% if current_user.is_authenticated %}
+    {% if i.status == "PENDING" %}
+    <span class="badge rounded-pill text-bg-secondary">pending from {{ i.date_of_est }}</span>
+    {% else %}
+    <span class="badge rounded-pill text-bg-success">pending from {{ i.date_of_est }}</span>
+    <span class="badge rounded-pill text-bg-success">completed on {{ date }}</span>
+    {% endif %}
+    {% endif %}
+
+    <ul class="navbar-nav ms-auto kkk">
+      <li class="nav-item list-dec">
+        <a type="button" href="{{ url_for('status', cc = i.id) }}" class="btn  btn-success action-icons">UPDATE</a>
+      </li>
+      <li class="nav-item list-dec">
+        <a type="button" href="{{ url_for('delete_task', cc = i.task) }}" class="btn  btn-danger action-icons"><i class="fa-solid fa-trash"></i></a>
+      </li>
+    </ul>
+
+  </nav>
+
+  {% endfor %}
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    <a href="https://www.facebook.com/ketan.sawant.7545/"><i class="last fa-brands fa-facebook"></i></a>
+    <a href="https://twitter.com/KetanSa64285133"><i class="last fa-brands fa-twitter"></i></a>
+    <a href="https://www.instagram.com/ketansawant692/"><i class="last fa-brands fa-instagram"></i></a>
+    <a href="mailto: ketansawan692@gmail.com"><i class="last fa-solid fa-envelope"></i></a>
+    <a href="https://www.reddit.com/user/Ketan_692"><i class="last fa-brands fa-reddit"></i></a>
+    <a href="https://www.linkedin.com/in/ketan-sawant-80b391204/"><i class="last fa-brands fa-linkedin"></i></a>
+    <p>© Copyright {{ year }} Ketan Sawant</p>
+  </footer>
+
+</body>
+
+</html>

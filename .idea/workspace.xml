@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eec72a64-19a4-485f-81b2-a64b5f54efa1" name="Changes" comment="Initial commit" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2FzoWBaH5Km3vExzWM4ywmqi0hv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\PORTFOLIO\To-do list\static" />
+      <recent name="C:\PORTFOLIO\To-do list" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="To-do list" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="TO_DO_LIST" value="ket#1235689" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eec72a64-19a4-485f-81b2-a64b5f54efa1" name="Changes" comment="" />
+      <created>1665504302376</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665504302376</updated>
+    </task>
+    <task id="LOCAL-00001" summary="final">
+      <created>1666708907186</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666708907186</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Made Some Improvements">
+      <created>1666884293859</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666884293859</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Without Requirement File">
+      <created>1666884803757</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666884803757</updated>
+    </task>
+    <task id="LOCAL-00004" summary="With requiremets.txt">
+      <created>1666969840220</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666969840220</updated>
+    </task>
+    <task id="LOCAL-00005" summary="With requiremets.txt">
+      <created>1666969957051</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666969957051</updated>
+    </task>
+    <task id="LOCAL-00006" summary="With Requirements.txt">
+      <created>1666971288531</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666971288531</updated>
+    </task>
+    <task id="LOCAL-00007" summary="With Requirements.txt">
+      <created>1666971656006</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666971656006</updated>
+    </task>
+    <task id="LOCAL-00008" summary="With Requirements.txt improvements">
+      <created>1666972068207</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1666972068208</updated>
+    </task>
+    <task id="LOCAL-00009" summary="With Requirements.txt improvements procfile">
+      <created>1666973334624</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666973334624</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Updated env. variables">
+      <created>1667054208112</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1667054208112</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Updated postgres">
+      <created>1667056138769</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1667056138769</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Updated postgres">
+      <created>1667056632486</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1667056632486</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Updated postgres">
+      <created>1667056743060</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1667056743060</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Updated postgres">
+      <created>1667056841872</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1667056841872</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Updated postgres">
+      <created>1667058872972</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1667058872974</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Updated postgres">
+      <created>1667059106678</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1667059106678</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Updated postgres">
+      <created>1667059227942</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1667059227942</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Updated postgres">
+      <created>1667059318612</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1667059318612</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Updated postgres">
+      <created>1667059588437</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1667059588437</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Updated postgres">
+      <created>1667059662846</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1667059662846</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Updated postgres">
+      <created>1667060051494</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1667060051494</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Updated postgres">
+      <created>1667060361343</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1667060361343</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Updated postgres">
+      <created>1667060783166</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1667060783166</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Updated postgres">
+      <created>1667064641062</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1667064641062</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Updated postgres">
+      <created>1667065155877</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1667065155877</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Updated postgres">
+      <created>1667139661942</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1667139661942</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Updated postgres">
+      <created>1667139954629</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1667139954629</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Updated postgres">
+      <created>1667140143462</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1667140143462</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Updated postgres">
+      <created>1667140208754</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1667140208754</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Updated postgres">
+      <created>1667140263808</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1667140263808</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Updated postgres">
+      <created>1667140420212</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1667140420212</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Updated postgres">
+      <created>1667140606171</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1667140606171</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Updated postgres">
+      <created>1667140735336</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1667140735336</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Initial commit">
+      <created>1667142840667</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1667142840667</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="final" />
+    <MESSAGE value="Made Some Improvements" />
+    <MESSAGE value="Without Requirement File" />
+    <MESSAGE value="With requiremets.txt" />
+    <MESSAGE value="With Requirements.txt" />
+    <MESSAGE value="With Requirements.txt improvements" />
+    <MESSAGE value="With Requirements.txt improvements procfile" />
+    <MESSAGE value="Updated env. variables" />
+    <MESSAGE value="Updated postgres" />
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+  </component>
+</project>

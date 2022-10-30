@@ -1,0 +1,137 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-brand, .nav-link {
+  color: black;
+}
+
+.navbar-brand {
+  font-weight: bolder;
+}
+
+.list-title, .title {
+  background-color: black;
+}
+
+.navbar-brand, .title, .tasks, .the_title {
+  font-size: 1.5rem;
+}
+
+.title, .tasks, .the_heading, .the_title {
+  font-weight: bold;
+}
+
+.list-title, .title, .the_title {
+  color: #fff;
+}
+
+.task-submission {
+  margin-top: 5px;
+}
+
+.list-title {
+  padding: 1%;
+}
+
+.title {
+  border: 0 solid black;
+  height: 40px;
+}
+
+.list-dec {
+  margin: 2px;
+}
+
+.the_task, .edit {
+  padding-left: 20px;
+}
+
+.action-icons {
+  margin: 20px;
+  color: black;
+}
+
+.tasks:hover {
+  background-color: #EEEEEE;
+}
+
+.action-icons {
+  visibility: collapse;
+}
+
+.tasks:hover>.action-icons {
+  visibility: visible;
+}
+
+.ddd {
+  margin-left: 20px;
+}
+
+.tasks:hover>ul>li>a {
+  visibility: visible;
+}
+
+.not_completed, .completed {
+  background-color: #DD5353;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 8px;
+  padding: 5px;
+  font-size: 1rem;
+}
+
+.completed {
+  background-color: green;
+}
+
+.the_heading, .ask, .alert-msg {
+  text-align: center;
+}
+
+.the_heading {
+  padding-top: 20px;
+}
+
+.form {
+  width: 40%;
+  line-height: 50px;
+}
+
+.badge {
+  font-size: 1rem;
+  margin: 5px;
+}
+
+@media (max-width: 1050px) {
+  .action-icons {
+    margin: 5px;
+  }
+
+  .not_completed, .completed {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 0.8rem;
+  }
+}
+
+footer {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 5%;
+  color: #0F3460;
+}
+
+.last {
+  margin: 15px;
+  color: #0F3460;
+}
+
+.last:hover {
+  color: #00FFD1;
+}
+
+.alert-msg {
+  color: red;
+}
